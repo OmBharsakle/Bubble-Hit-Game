@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg">
+        <div class="contener" >
+            <div class="head">
+                <div class="score">
+                    <div>
+                     <h2 class="score1" >HIT <div class="box" id="hitval">5</div></h2> 
+                    </div>
+                    <div>
+                     <h2 class="score1" >TIMER <div class="box" id="timervalue">60</div></h2> 
+                    </div>
+                    <div>
+                     <h2 class="score1">SCORE <div class="box" id="mark">0</div></h2> 
+                    </div>
+                </div>
+            </div>
+            <div class="main_ball" id="contener"></div>
+        </div>
+    </div>
+    <input type="range" value="0" min="0" max="1000" id="hue" oninput="hue()">
+    <script src="java.js"></script>
+</body>
+</html>
